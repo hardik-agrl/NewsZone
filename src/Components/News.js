@@ -117,7 +117,7 @@ export default class News extends Component {
 
   render() {
     return (
-        // Document.title= Hello-Monkey,
+        // Document.title= Hello-Zone,
       <div className='container my-5'>
        <h1 className='text-center'>{`Top ${(this.props.category).charAt(0).toUpperCase() + (this.props.category).slice(1)} Headlines `}  </h1>
        {this.state.loading && <Spinner/>}
